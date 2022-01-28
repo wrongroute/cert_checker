@@ -1,0 +1,17 @@
+tarantool:
+  port: 443
+  host: pkg.go.dev
+
+secrets:
+  kafka:
+    secretName:
+    key:
+  cc:
+    secretName:
+    key:
+  ingress:
+    secretName:
+    key:
+
+metricPath: /actuator/prometheus
+namespace: ls1-genr01-cspc-lt-person
